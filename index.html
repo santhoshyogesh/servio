@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  <title>Smart Chat Assistant</title>
+
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo"><img src="img/chatbot-logo.png" alt="logo" height="30px"
+      width="35px" ></div>
+    <ul class="nav-links">
+      <li><a href="welcome.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="chatbox-wrapper">
+    <header class="chat-header">
+      <img src="img/chatbot-text.png" alt="chatbot text" 
+      width="60px">
+      <p>Your AI-powered helper</p>
+    </header>
+
+    <div class="message-box" id="chat">
+      <div class="chat response">
+       
+        <span>Hello! How can I assist you today?</span>
+      </div>
+    </div>
+
+    <footer class="messagebar">
+      <div class="bar-wrapper">
+        <input type="text" id="input" placeholder="Type your message here..." />
+        <button id="button">
+          <span class="material-icons-outlined">send</span>
+        </button>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
